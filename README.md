@@ -11,7 +11,7 @@ A full-stack web application with AI integration that processes book data and en
 
 ## 🛠️ Tech Stack
 - **Backend:** Django REST Framework, Python
-- **Database:** MySQL
+- **Database:** Postgresql
 - **AI:** Google Gemini API
 - **Frontend:** ReactJS, Tailwind CSS
 - **Scraping:** BeautifulSoup, Requests
@@ -29,12 +29,12 @@ Configure `core/settings.py`:
 ```python
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgres',
         'NAME': 'book_intelligence',
-        'USER': 'your_mysql_user',
-        'PASSWORD': 'your_mysql_password',
+        'USER': 'your_postgres_user',
+        'PASSWORD': 'your_postgres_password',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 GEMINI_API_KEY = 'your_gemini_api_key'
