@@ -68,5 +68,5 @@ npm start
 - "What books are about love?"
 - "Which book has the highest rating?"
 
-## 📸 Screenshots
-[Add screenshots here]
+
+
